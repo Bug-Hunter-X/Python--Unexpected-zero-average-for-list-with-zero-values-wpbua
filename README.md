@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in Python code related to calculating averages. The original code handles empty lists correctly but returns 0 even when a list contains only zeros. The solution addresses this by explicitly checking if all numbers in the list are zero and returning zero only under this specific condition.
